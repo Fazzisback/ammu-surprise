@@ -99,9 +99,15 @@ color:white;
 
 <h1>Dear Ammu ❤️</h1>
 
-<form
-action="https://formspree.io/f/xgaorlyw"
-method="POST">
+<script>
+const form = document.getElementById("loveForm");
+
+form.addEventListener("submit", function () {
+    setTimeout(() => {
+        window.location.href = "poem.html";
+    }, 1500);
+});
+</script>
 
 <label>
 
